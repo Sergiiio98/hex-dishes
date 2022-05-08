@@ -80,4 +80,10 @@ p {
     .whiteBox{
         width: 50%;
     }
+
+    #sendOrderButton:hover{
+        background-color: #F87A31;
+        filter: brightness(90%);
+        
+    }
   }

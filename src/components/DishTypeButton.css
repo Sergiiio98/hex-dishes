@@ -36,4 +36,10 @@
     .btn-background h5{
         margin: 0;
     }
+
+    .btn_background { transition: all .2s ease-in-out; }
+
+    .btn_background:hover{
+        transform: scale(1.1);
+    }
   }

@@ -49,6 +49,7 @@ function Order() {
     axios.post('https://frosty-wood-6558.getsandbox.com:443/dishes', newDataObj)
     .then(function (response) {
       console.log(response);
+      alert("Order sent sucessfully");
     })
     .catch(function (error) {
       console.log(error);
@@ -137,7 +138,8 @@ function Order() {
           </div>
           {conditionalRender(dishType)}
         </div>
-        <input onClick={handleSubmit((d) => prepareAndPostData(d))} id="sendOrderButton" value="Send Order" type="submit" />
+        
+        <button onClick={handleSubmit((d) => prepareAndPostData(d))} id="sendOrderButton" value="Send Order" type="submit" >Send Order</button>
       </div>
     </div>
   );

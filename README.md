@@ -31,5 +31,6 @@ $ npm start
 ```
 
 ## Deplyoed App
-Here is the link to deployed app: 
+Here is the link to deployed app:
+https://hex-dishes-sergiiio98.vercel.app/
 

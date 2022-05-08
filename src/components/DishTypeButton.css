@@ -1,0 +1,39 @@
+.btn{
+    width: 47px;
+    height: 47px;
+}
+
+.btn-background{
+    width: 80px;
+    height: 80px;
+    background-color: #F0F2F7;
+    border-radius: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-background h5{
+    margin: 0;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .btn{
+        width: 97px;
+        height: 97px;
+    }
+    
+    .btn-background{
+        width: 130px;
+        height: 130px;
+    }
+
+    .btn-background h5{
+        margin: 0;
+    }
+  }

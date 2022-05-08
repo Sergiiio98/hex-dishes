@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #342C2C;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.navbar h5{
+    margin: 0;
+}
+
+.hamburgerButton{
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
